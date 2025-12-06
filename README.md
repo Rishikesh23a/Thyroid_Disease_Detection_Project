@@ -44,17 +44,16 @@ Thyroid-detection--PROJECT/
 ```
 pip install -r requirements.txt
 ```
-```
+
 ✅ For model training / evaluation
 python src/train_model.py    # or the script you use for training
 
 
 This will preprocess data, train the model, evaluate it, and save the trained model to models/.
-```
-```
+
 ✅ For prediction
 python src/predict.py        # or appropriate prediction script
 
 
-You can input patient data and get the predicted thyroid condition.
-```
+input patient data and get the predicted thyroid condition.
+
