@@ -22,3 +22,32 @@ It includes data preprocessing, model training & evaluation, and a prediction in
 
 ## 📁 Folder / File Structure
 
+```
+Thyroid-detection--PROJECT/
+│
+├── data/ # Raw & processed datasets (if any)
+├── notebooks/ # Jupyter notebooks: EDA, preprocessing, model building
+├── models/ # Trained model files (e.g. .pkl or .joblib)
+├── src/ or app/ # Scripts for preprocessing, training, prediction, and interface
+├── requirements.txt # Required Python packages
+├── README.md # Project documentation (this file)
+└── .gitignore # Optional: files/folders to ignore in Git
+```
+
+## 🛠 Setup & Installation
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Rishikesh23a/Thyroid-detection--PROJECT.git
+   cd Thyroid-detection--PROJECT
+(Recommended) Create and activate a virtual environment:
+
+bash
+Copy code
+python3 -m venv venv
+source venv/bin/activate    # On Windows: venv\\Scripts\\activate
+Install dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
