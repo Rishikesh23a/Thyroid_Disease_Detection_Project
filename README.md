@@ -25,7 +25,6 @@ It includes data preprocessing, model training & evaluation, and a prediction in
 ```
 Thyroid-detection--PROJECT/
 │
-├── data/ # Raw & processed datasets (if any)
 ├── notebooks/ # Jupyter notebooks: EDA, preprocessing, model building
 ├── models/ # Trained model files (e.g. .pkl or .joblib)
 ├── src/ or app/ # Scripts for preprocessing, training, prediction, and interface
@@ -51,3 +50,4 @@ Install dependencies:
 bash
 Copy code
 pip install -r requirements.txt
+
