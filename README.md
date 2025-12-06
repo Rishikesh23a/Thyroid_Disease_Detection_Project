@@ -39,15 +39,22 @@ Thyroid-detection--PROJECT/
    ```bash
    git clone https://github.com/Rishikesh23a/Thyroid-detection--PROJECT.git
    cd Thyroid-detection--PROJECT
-(Recommended) Create and activate a virtual environment:
 
-bash
-Copy code
-python3 -m venv venv
-source venv/bin/activate    # On Windows: venv\\Scripts\\activate
-Install dependencies:
-
-bash
-Copy code
+2. Install dependencies:
+```
 pip install -r requirements.txt
+```
+```
+✅ For model training / evaluation
+python src/train_model.py    # or the script you use for training
 
+
+This will preprocess data, train the model, evaluate it, and save the trained model to models/.
+```
+```
+✅ For prediction
+python src/predict.py        # or appropriate prediction script
+
+
+You can input patient data and get the predicted thyroid condition.
+```
