@@ -44,14 +44,29 @@ Thyroid-detection--PROJECT/
 ```
 pip install -r requirements.txt
 ```
-
-<h1 ✅ For model training / evaluation</h1>
+```
+✅ For model training / evaluation
 python src/train_model.py    # or the script you use for training
 
 This will preprocess data, train the model, evaluate it, and save the trained model to models/.
 
-<h1 ✅ For prediction</h1>
+✅ For prediction
 python src/predict.py        # or appropriate prediction script
 
 input patient data and get the predicted thyroid condition.
+```
+🔮 Future Improvements
 
+• Add more data (diverse patient profiles, larger dataset) to improve model generalization
+
+• Use advanced models / ensemble methods / deep learning for better prediction performance
+
+• Build a web or mobile interface for easier usage (e.g. with Flask or Streamlit)
+
+• Add data validation and error handling for user inputs
+
+👤 Author / Contributor
+
+Rushikesh Sable
+
+rushikeshsable9850@gmail.com
